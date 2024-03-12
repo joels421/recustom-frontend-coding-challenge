@@ -1,0 +1,27 @@
+/* styles.css */
+/* Hide the icons for different toast appearances */
+.Toastify__toast-icon {
+  display: none;
+}
+
+.Toastify__toast-icon {
+  display: none;
+}
+
+.Toastify__toast-container {
+  width: 600px;
+}
+
+.Toastify__toast.Toastify__toast--success {
+  /* background-color: aquamarine; */
+  border: 1px solid rgb(137, 228, 200);
+  color: rgb(77, 169, 131);
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Toastify__toast.Toastify__toast--error {
+  /* background-color: aquamarine; */
+  border: 1px solid rgb(243, 166, 164);
+  color: rgb(228, 106, 102);
+}

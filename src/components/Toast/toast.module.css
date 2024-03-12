@@ -1,0 +1,16 @@
+/* styles.css */
+/* Hide the icons for different toast appearances */
+.Toastify__toast--info .Toastify__toast-icon,
+.Toastify__toast--success .Toastify__toast-icon,
+.Toastify__toast--error .Toastify__toast-icon {
+  display: none;
+}
+
+.Toastify__toast--info,
+.Toastify__toast--success,
+.Toastify__toast--error {
+  width: 300px;
+}
+.Toastify__toast-icon {
+  display: none;
+}
